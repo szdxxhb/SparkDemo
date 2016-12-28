@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/HbaseDemo/HbaseDemo.iml" filepath="$PROJECT_DIR$/HbaseDemo/HbaseDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sparkDemo.iml" filepath="$PROJECT_DIR$/sparkDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sparkWithHbase/sparkWithHbase.iml" filepath="$PROJECT_DIR$/sparkWithHbase/sparkWithHbase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sparkWordCount/sparkWordCount.iml" filepath="$PROJECT_DIR$/sparkWordCount/sparkWordCount.iml" />
+    </modules>
+  </component>
+</project>

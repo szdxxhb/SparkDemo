@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="sparkWithHbaseDemo">
+    <output-path>$PROJECT_DIR$/out/artifacts/sparkWithHbaseDemo</output-path>
+    <root id="archive" name="sparkWithHbaseDemo.jar">
+      <element id="module-output" name="sparkWithHbase" />
+    </root>
+  </artifact>
+</component>
