@@ -28,8 +28,6 @@ object sparkWithHbase {
   //加载Hbase配置文件
   config.addResource("..\\files\\hbase-site.xml")
 
-
-
   def resultToList(tableValues: Tuple2[ImmutableBytesWritable, Result]): ListBuffer[Row] = {
     val tup = tableValues._2
     val list: ListBuffer[Row] = new ListBuffer[Row]
