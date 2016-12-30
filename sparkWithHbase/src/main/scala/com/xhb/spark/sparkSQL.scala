@@ -1,10 +1,8 @@
-package com.sncfc.spark
+package com.xhb.spark
 
 import java.io.File
 
-import org.apache.hadoop.hbase.client._
 import org.apache.hadoop.hbase.HBaseConfiguration
-import org.apache.hadoop.hbase.io.ImmutableBytesWritable
 import org.apache.hadoop.hbase.mapreduce.TableInputFormat
 import org.apache.hadoop.hbase.util.Bytes
 import org.apache.log4j.{Level, Logger}
@@ -42,8 +40,6 @@ object sparkSQL {
       classOf[TableInputFormat],
       classOf[org.apache.hadoop.hbase.io.ImmutableBytesWritable],
       classOf[org.apache.hadoop.hbase.client.Result])
-
-
 
     // 将数据映射为表  也就是将 RDD转化为 dataframe schema
     val orders = hbaseRDD.map(r => (

@@ -1,9 +1,8 @@
-package com.sncfc.hbase;
+package com.xhb.hbase;
 
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.clients.consumer.ConsumerRecords;
 import org.apache.kafka.clients.consumer.KafkaConsumer;
-import org.apache.kafka.clients.consumer.ConsumerConfig;
 
 
 import java.io.IOException;

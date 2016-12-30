@@ -1,4 +1,4 @@
-package com.sncfc.hbase;
+package com.xhb.hbase;
 
 /**
  * Created by 16060764 on 2016/12/19.
