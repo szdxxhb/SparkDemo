@@ -58,7 +58,7 @@ object sparkSQL {
     // 测试
     val df2 = sqlcontext.sql("SELECT userid,sum(orderamt)  FROM order_info group by userid")
     println("总共  " + ordersum + "个订单")
-    df2.map(t => "用户: " + t(0) + "  总金额：" + "%20.0f".format(t(1))).collect().foreach(println)
+    df2.map(t => "用户: " + t(0) + "  总金额 ：" + "%20.0f".format(t(1))).collect().foreach(println)
 
 
   }
